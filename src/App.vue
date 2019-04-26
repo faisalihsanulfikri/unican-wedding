@@ -4,14 +4,16 @@
       <img src="@/assets/home-bg.jpg">
     </div>-->
     <div class="date">
-      <div>
+      <!-- <div>
         <span>{{today}}</span>
-      </div>
+      </div>-->
       <div>
+        <span>engagement at</span>
+        <br>
         <span>{{date}}</span>
       </div>
       <div class="result">
-        <span>{{result}} Hari Lagi</span>
+        <span>{{result}} day left</span>
       </div>
     </div>
   </div>
