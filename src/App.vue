@@ -1,5 +1,8 @@
 <template>
   <div id="app">
+    <!-- <div class="bg">
+      <img src="@/assets/home-bg.jpg">
+    </div>-->
     <div class="date">
       <div>
         <span>{{today}}</span>
@@ -59,12 +62,19 @@ export default {
 </script>
 
 <style lang="scss">
+body {
+  margin: 0;
+}
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+  background-image: url("/home-bg.jpg");
+  height: 100vh;
+  background-size: cover;
+  position: relative;
 }
 #nav {
   padding: 30px;
@@ -82,9 +92,17 @@ export default {
   top: 50%;
   transform: translate(-50%, -50%);
   left: 50%;
+  color: white;
 
   .result {
     margin-top: 10px;
   }
+}
+.bg {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  z-index: -1;
+  left: 0;
 }
 </style>
