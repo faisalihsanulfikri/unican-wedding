@@ -73,10 +73,16 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  background-image: url("/home-bg.jpg");
+  // background-image: url("/home-bg.jpg");
   height: 100vh;
   background-size: cover;
   position: relative;
+  background: rgb(102, 45, 140);
+  background: linear-gradient(
+    45deg,
+    rgba(102, 45, 140, 1) 0%,
+    rgba(237, 30, 121, 1) 100%
+  );
 }
 #nav {
   padding: 30px;
