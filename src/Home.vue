@@ -1,22 +1,7 @@
 <template>
-  <div id="app">
-    <!-- <div class="bg">
-      <img src="@/assets/home-bg.jpg">
-    </div>-->
-    <div class="date">
-      <!-- <div>
-        <span>{{today}}</span>
-      </div>-->
-      <div>
-        <span>engagement attt</span>
-        <br>
-        <span>{{date}}</span>
-      </div>
-      <div class="result">
-        <span>{{result}} day left</span>
-      </div>
-    </div>
-  </div>
+  <div class="fh5co-loader"></div>
+  
+
 </template>
 
 <script>
